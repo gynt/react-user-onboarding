@@ -120,15 +120,15 @@ button:focus {
 }
 
 .button-primary {
-    background: rgb(22, 158, 158);
-    border: 1px solid rgb(22, 158, 158);
+    background: #F19820;
+    border: 1px solid #F19820;
     color: #fff;
     font-weight: 900;
 }
 
 .button-secondary {
     border: 1px solid #fff;
-    color: rgb(22, 158, 158);
+    color: #F19820;
     font-weight: 900;
     background: rgb(243, 240, 240);
 }
