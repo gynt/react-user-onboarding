@@ -118,7 +118,6 @@ const SpeechBubble = ({ index, setIndex, maxLength, className, title, isVisible,
             style={{width: '100px', height: '100px', position: 'fixed', bottom: 0, left: 0, zIndex: 999}}
         >
             <div data-testid="tooltip-placeholder">
-                <img className={styles.bubble} style={{bottom: `${window.innerHeight + window.screenY} px`}} src="https://cdn4.iconfinder.com/data/icons/avatar-circle-1-1/72/6-512.png" />
             </div>
             {isVisible && (
                 <div

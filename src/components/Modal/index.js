@@ -67,11 +67,6 @@ const Modal = ({ intro, index, setIndex, className, maxLength, isVisible, onClos
     return (
         <div className={`${className} ${styles['modal-pane']} ${isVisible && styles['show-modal']}`}>
             <div className={`${styles['modal-content']}`}>
-                <img src="https://cdn4.iconfinder.com/data/icons/avatar-circle-1-1/72/6-512.png" />
-                <div className={`${styles['modal-header']} ${styles['fixed-top']}`}>
-                    <h4></h4>
-                    <p onClick={onClose}>close</p>
-                </div>
                 <div className={`${styles['modal-body']}`}>
                     {
                         props.children
