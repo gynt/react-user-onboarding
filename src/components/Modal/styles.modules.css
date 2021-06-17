@@ -16,7 +16,6 @@
     left: 50%;
     width: 600px;
     transform: translate(-50%, -50%);
-    background: #fff;
     border-radius: 12px;
 }
 @media (max-width: 600px) {
@@ -39,7 +38,6 @@
 }
 .modal-pane .modal-content img {
     width: 60px;
-    background: #fff;
     position: absolute;
     padding: 5px;
     border-radius: 50%;
